@@ -1,12 +1,20 @@
 import { StrictMode } from "react"
 import { createRoot } from "react-dom/client"
-import { MainApp } from "./MainApp"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { Main } from "./pages/Main"
 
 import "@unocss/reset/antfu.css"
 import "uno.css"
 
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Main />
+    }
+])
+
 createRoot(document.getElementById("app")!).render(
     <StrictMode>
-        <MainApp />
+        <RouterProvider router={router} />
     </StrictMode>
 )

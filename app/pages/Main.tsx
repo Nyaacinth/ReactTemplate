@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react"
 
-export const MainApp: FunctionComponent = () => {
+export const Main: FunctionComponent = () => {
     return (
         <div>
             <p>Hello</p>
