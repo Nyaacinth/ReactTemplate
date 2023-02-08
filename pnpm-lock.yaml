@@ -7,6 +7,7 @@ specifiers:
   '@types/react-dom': ^18.0.10
   '@typescript-eslint/eslint-plugin': ^5.51.0
   '@typescript-eslint/parser': ^5.51.0
+  '@unocss/preset-rem-to-px': ^0.49.4
   '@unocss/preset-wind': ^0.49.4
   '@unocss/reset': ^0.49.4
   '@vitejs/plugin-react': ^3.1.0
@@ -41,6 +42,7 @@ devDependencies:
   '@types/react-dom': 18.0.10
   '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
   '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
+  '@unocss/preset-rem-to-px': 0.49.4
   '@unocss/preset-wind': 0.49.4
   '@vitejs/plugin-react': 3.1.0_vite@4.1.1
   eslint: 8.33.0
@@ -981,6 +983,12 @@ packages:
 
   /@unocss/preset-mini/0.49.4:
     resolution: {integrity: sha512-GsVKBRi2BbliEic7SfdY2AG03T+wEOd3yZOY+NtwEJ9Z/hwb1zRQHiizDuyth0E3FCHVfZkk9C0/WXy8Z1Qj3g==}
+    dependencies:
+      '@unocss/core': 0.49.4
+    dev: true
+
+  /@unocss/preset-rem-to-px/0.49.4:
+    resolution: {integrity: sha512-VOdeF2QUKMcvg8OxFP3Ta94tWTgk20yBpq4XJLpc1jwU73xKp1XD1ggvzryXJa6Uo9CBC5Dc6oFcwQbShtOM7A==}
     dependencies:
       '@unocss/core': 0.49.4
     dev: true
