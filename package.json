@@ -3,7 +3,7 @@
     "private": true,
     "version": "1.0.0",
     "type": "module",
-    "packageManager": "pnpm@7.25.1",
+    "packageManager": "pnpm@7.26.3",
     "scripts": {
         "dev:vite": "vite serve",
         "build:vite": "vite build",
@@ -28,6 +28,7 @@
         "@typescript-eslint/parser": "^5.51.0",
         "@unocss/preset-rem-to-px": "^0.49.4",
         "@unocss/preset-wind": "^0.49.4",
+        "@unocss/transformer-variant-group": "^0.49.4",
         "@vitejs/plugin-react": "^3.1.0",
         "eslint": "^8.33.0",
         "eslint-plugin-react": "^7.32.2",
